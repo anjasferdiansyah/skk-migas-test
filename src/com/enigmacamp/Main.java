@@ -105,7 +105,7 @@ public class Main {
         List<Integer> newArr = new ArrayList<>();
 
      arr.forEach(integer -> {
-         if (integer % 3 == 0) {
+         if (integer % 3 != 0) {
              newArr.add(integer);
          }
      });
